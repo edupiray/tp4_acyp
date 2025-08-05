@@ -9,3 +9,13 @@
 
    # Versión C++
    mpic++ matmul.cpp -o matmul_cpp && mpirun -np 4 ./matmul_cpp
+
+-------------------------------------------------------------------------
+
+## Guardar cambios permanentemente
+1. Tras modificar un archivo u otro cambio que quieran hacer, haz **Ctrl+S** en VS Code de Codespace
+2. Ejecuta en la terminal:
+   ```bash
+   git add .
+   git commit -m "Mis cambios"
+   git push
