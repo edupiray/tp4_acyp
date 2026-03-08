@@ -7,8 +7,7 @@
 -------------------------------------------------------------------------
 ## Ruta a los ejemplos:
 ## Ejemplos base
-- [`ejemplos_base/matmul.c`](ejemplos_base/matmul.c): Multiplicación de matrices en C.
-- [`ejemplos_base/matmul.cpp`](ejemplos_base/matmul.cpp): Multiplicación de matrices en C++.
+- [`ejemplos_base/`](ejemplos_base/README.md): Multiplicación de matrices en paralelo (C y C++).
 ## Ejemplos de machine Learning
 - [`desafios_ml/`](desafios_ml/README.md): Algoritmos de simulación y clustering con MPI.
 
