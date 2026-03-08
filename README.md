@@ -2,13 +2,14 @@
 
 1. Hacer clic en "fork" de este repositorio (botón superior derecho)
 2. Abre tu propio fork en Codespaces (botón "Code" > "Codespaces")
-3. Ejecuta en la terminal del entorno Codespace:
-   ```bash
-   # Versión C
-   mpicc matmul.c -o matmul_c && mpirun -np 4 ./matmul_c
+3. Ejecuta en la terminal del entorno Codespace los algoritmos correspondientes.
 
-   # Versión C++
-   mpic++ matmul.cpp -o matmul_cpp && mpirun -np 4 ./matmul_cpp
+-------------------------------------------------------------------------
+##Ruta a los archivos
+## Ejemplos base
+- [`ejemplos_base/matmul.c`](ejemplos_base/matmul.c): Multiplicación de matrices en C.
+- [`ejemplos_base/matmul.cpp`](ejemplos_base/matmul.cpp): Multiplicación de matrices en C++.
+- [`desafios_ml/`](desafios_ml/README.md): Algoritmos de simulación y clustering con MPI.
 
 -------------------------------------------------------------------------
 
