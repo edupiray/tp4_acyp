@@ -15,3 +15,10 @@ Compilar (C o C++):
 mpicc montecarlo_pi_mpi.c -o montecarlo_c
 # Versión C++
 mpic++ montecarlo_pi_mpi.cpp -o montecarlo_cpp
+
+```
+Ejecutar por ejemplo con 4 procesos:
+```bash
+mpirun -np 4 ./montecarlo_c   # o ./montecarlo_cpp
+```
+Nota: El número de procesos puede ser cualquiera (no requiere divisibilidad exacta).
