@@ -5,10 +5,11 @@
 3. Ejecuta en la terminal del entorno Codespace los algoritmos correspondientes.
 
 -------------------------------------------------------------------------
-##Ruta a los archivos
+## Ruta a los ejemplos:
 ## Ejemplos base
 - [`ejemplos_base/matmul.c`](ejemplos_base/matmul.c): Multiplicación de matrices en C.
 - [`ejemplos_base/matmul.cpp`](ejemplos_base/matmul.cpp): Multiplicación de matrices en C++.
+## Ejemplos de machine Learning
 - [`desafios_ml/`](desafios_ml/README.md): Algoritmos de simulación y clustering con MPI.
 
 -------------------------------------------------------------------------
